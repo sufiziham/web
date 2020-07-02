@@ -1,0 +1,262 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+p{
+    color: #8f8f8f; 
+}
+
+.mini-p{
+    font-size: xx-small;
+    /* padding-bottom: 5%; */
+}
+
+.xlarge-p{
+    font-size: x-large;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.container-fluid{
+    padding: 5% 15% 15%;
+}
+
+hr{
+    padding: 0%
+}
+
+
+/* Section */
+
+.section-colored{
+    background-color: #222831;
+    color: white;
+}
+
+.section-white{
+    background-color: #dddddd;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* Navigation Bar V2*/
+
+/* The side navigation menu */
+
+
+.nav-bar{
+    /* background-color: #1B1A1A; */
+}
+
+
+.nav-button{
+  padding-left: 2%;
+  padding: 10px 0px 10px 20px;
+  text-align: left;
+  margin-bottom: 0;
+  color: #8f8f8f;
+  cursor: pointer;
+}
+
+.nav-button:hover{
+    color: white;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+  }
+
+  .sidenav hr {
+    background-color: #818181;
+    margin: 0px;
+    border: none;
+    height: 2px;
+    width: 80%;
+    margin: 10px 0px 10px 30px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: white;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+/* Title Section */
+.title-intro{
+    padding: 12% 15% 20%;
+}
+.title-h1{
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    font-size: 3rem; 
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;   
+}
+
+.background-title-image{
+    background-image: url('media/mountain.jpg');
+    background-size: cover;
+    /* padding: 12% 25% 20%; */
+    background-attachment: fixed;                   /* parallex scrolling */
+    background-position: center;
+    
+
+}
+
+
+
+@media screen and (max-width:1024px){
+
+    .background-title-image{
+        background-image: url('media/mountain.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-attachment: initial;
+    }
+}
+
+/* Introduction Section */
+
+#introduction .container-fluid{
+    padding-bottom: 8%;
+}
+
+.intro-image{
+    
+    width: 140px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+.intro-p{
+    font-size: large;
+    text-align: center;
+    padding: 15px 25% 80px;
+}
+
+.outro-image{
+    width: 100px;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3%;
+}
+
+.price-h2{
+    font-size: 3rem;
+    line-height: 3rem;
+    color: black;
+    padding-bottom: 5%;
+}
+
+.pricing-h3{
+    font-size: 1.5rem;  
+    color: black;
+}
+
+
+
+/* call to action section */
+
+
+.cta-h3{
+    line-height: 1.5;
+}
+
+
+
+.cta-image{
+    width: 100px;
+    padding: 15px;
+}
+
+.icon-email{
+    font-size: 80px;
+    color: black;
+    padding: 15px;
+}
+
+.icon-email:hover{
+    color: blue;
+}
+
+.icon-whatsapp{
+    font-size: 80px;
+    color: black;
+    padding: 15px;
+}
+
+.icon-whatsapp:hover{
+    color: #25d366;
+}
+
+/* Footer */
+
+
+#footer{
+    line-height: 1.5s;
+}
+
+#footer .container-fluid{
+    padding: 1%;
+}
+.footer-icon{
+    color: white;
+    margin: 1%;
+
+}
+
+.footer-p{
+    padding-top: 10px;
+}
